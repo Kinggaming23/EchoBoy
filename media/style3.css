@@ -202,7 +202,7 @@ body {
     background: rgba(0, 0, 0, .5) url('bg.png');
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: 50% 50%;
 }
 
 .main1_logo_a {
