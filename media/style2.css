@@ -817,4 +817,11 @@ body {
     .contact-right{
         display: none;
     }
-}
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 250px;
+    height: 50px;
+}
