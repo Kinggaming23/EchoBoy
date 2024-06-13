@@ -53,24 +53,24 @@
           <img class="main1_logo" src="media/logo.png" alt="logo">
         </a>
         <div class="main1_description">
-          <a>Un<br>server</a>
-          <a class="main1_actcent">Român </a><a>făcut de Români</a><a>.</a>
+          <a>Un server</a>
+          <a class="main1_actcent">Român </a><br><a>făcut de Români</a><a>.</a>
         </div>
         <div class="main1_ipcopier_div">
           <button class="main1_ipcopier" onclick="copyText()" type="button">
-            <span class="main1_ipcopier_text1">COMING SOON</span>
+            <span class="main1_ipcopier_text1">RedGods.srvmc.net</span>
             <br>
-            <span class="main1_ipcopier_text2">Click pentru a copia</span>
+            <span class="main1_ipcopier_text2">Apasa pentru a copia</span>
           </button>
           <script>
             function copyText() {
                 navigator.clipboard.writeText
-            ("COMING SOON");
+            ("RedGods.srvmc.net");
                 }
             $(document).ready(function() {
             $('.main1_ipcopier').click(function() {
                 var popup = $('<div>', { class: 'main1_popup' })
-                .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
+                .append($('<h3 class="copy_confirm">').text('IP Copiat'))
                 $(this).after(popup);
                 setTimeout(function() {
                 popup.remove();
@@ -141,14 +141,12 @@
             </a>
           </div>
         </div>
-      </div>
-      <div class="main4">
         <div class="main4_dc_div">
-          <iframe class="main4_dc_widget" src="media/DUBBY.png" width="380" height="520" title="discord" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          <iframe class="main4_dc_widget" src="media/DUBBY.png" width="400" height="520" title="discord" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
           <div class="main4_dc_description_div">
             <a class="main4_dc_description_title">Sponsor</a>
-            <a class="main4_dc_description"> <center> Dubby Energy</center>  <br> ・Energizante <br> ・Sticare <br> ・10% off pentru toate produsele <br> ・code: KING487<br><br> &amp; multe altele </a>
-            <a href="https://www.dubby.gg/collections/all?ref=atskfqgd" class="main4_dc_button_a">
+            <a class="main4_dc_description"> Dubby Energy <br> ・Energizante <br> ・Sticare <br>10% off pentru toate produsele code: KING487<br><br> &amp; multe altele </a>
+            <a href="https://www.dubby.gg/collections/all" class="main4_dc_button_a">
               <div class="main4_dc_button">Exploreaza</div>
           </div>
         </div>
