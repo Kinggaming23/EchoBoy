@@ -10,6 +10,7 @@
 
 <header>
     <h1>Artist Name</h1>
+    <button id="themeToggle">Switch Theme</button> <!-- Theme toggle button -->
 </header>
 
 <nav>
@@ -25,11 +26,11 @@
     </section>
 
     <section id="gallery" class="gallery">
-        <img src="artwork1.jpg" alt="Artwork 1">
-        <img src="artwork2.jpg" alt="Artwork 2">
-        <img src="artwork3.jpg" alt="Artwork 3">
-        <img src="artwork4.jpg" alt="Artwork 4">
-        <!-- Add more images as needed -->
+        <img src="artwork1.jpg" alt="Artwork 1" class="art-image">
+        <img src="artwork2.jpg" alt="Artwork 2" class="art-image">
+        <img src="artwork3.jpg" alt="Artwork 3" class="art-image">
+        <img src="artwork4.jpg" alt="Artwork 4" class="art-image">
+        <!-- More images -->
     </section>
 
     <section id="contact">
@@ -43,5 +44,13 @@
     <p>&copy; 2024 Artist Name. All rights reserved.</p>
 </footer>
 
+<!-- Modal for image -->
+<div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div id="caption"></div>
+</div>
+
+<script src="scripts.js"></script> <!-- Link to JavaScript file -->
 </body>
 </html>
