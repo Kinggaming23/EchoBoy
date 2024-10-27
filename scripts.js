@@ -8,12 +8,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Dark/Light Theme Toggle
-const themeToggle = document.getElementById('themeToggle');
-themeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-});
-
 // Modal Image Gallery
 const modal = document.getElementById("modal");
 const modalImg = document.getElementById("modalImg");
