@@ -59,12 +59,22 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
 .gallery img {
     width: 100%;
     border: 5px solid #ddd;
     border-radius: 8px;
     transition: transform 0.3s;
 }
+
+.gallery img:hover {
+    transform: scale(1.05);
+    border-color: #aaa;
 
 footer {
     background-color: rgba(0, 0, 0, 0.7);
