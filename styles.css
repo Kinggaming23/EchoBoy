@@ -57,12 +57,19 @@ section {
     padding: 50px 20px;
 }
 
+h4 {
+    color: #0ff;
+    text-align: center;
+    font-size: xx-large;
+}
+
 h2 {
     color: #0ff;
     border-bottom: 2px solid #0ff;
     display: inline-block;
     margin-bottom: 20px;
 }
+
 
 /* Bordered Paragraph */
 .bordered-paragraph {
@@ -85,6 +92,7 @@ h2 {
 .music-item h3 {
     color: #0ff;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Contact Form */
@@ -127,4 +135,43 @@ button:hover {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/* Copyright Island Styles */
+.copyright-island {
+    background-color: #222;
+    border-radius: 50%;
+    width: 300px; /* Adjusted size */
+    height: 180x; 
+    margin: auto;  /* Center horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: 0 0 20px white; /* White glow */
+}
+
+/* Additional Styles for the footer positioning */
+footer {
+    margin-top: auto; /* Pushes footer to the bottom */
+    padding: 20px; /* Add some padding for space */
+}
+
+/* Music Section */
+.music-item {
+    margin-bottom: 30px;
+    text-align: center; /* Center the content */
+}
+
+.music-item h3 {
+    color: #0ff;
+    margin-bottom: 10px;
+}
+
+/* Centering the audio element */
+.music-item audio {
+    margin: 0 auto; /* Center the audio player */
+    display: block; /* Ensure it behaves like a block element */
 }
