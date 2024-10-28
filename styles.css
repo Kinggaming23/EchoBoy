@@ -5,6 +5,7 @@ body {
     background-color: #121212;
     margin: 0;
     padding: 0;
+    animation: fadeIn 4s;
 }
 
 /* Hero Section */
@@ -17,7 +18,7 @@ body {
 .hero h1 {
     font-size: 2.5em;
     color: #0ff;
-    animation: fadeIn 4s;
+    animation: fadeIn 8s;
     position: relative;
     z-index: 2;
 }
