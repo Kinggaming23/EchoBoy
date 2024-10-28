@@ -169,6 +169,7 @@ footer {
     padding: 20px; /* Add some padding for space */
     background-color: #222; /* Ensure footer has a background */
     border-top: 1px solid #444; /* Optional: gray line above footer */
+    text-align: center; /* Center text in footer */
 }
 
 /* Music Section */
@@ -210,4 +211,28 @@ footer {
 * {
     scrollbar-width: thin; /* "auto" or "thin" */
     scrollbar-color: #0ff #222; /* Thumb color and track color */
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 600px) {
+    .hero {
+        padding: 60px 10px; /* Reduce padding for mobile */
+    }
+    .hero h1 {
+        font-size: 1.8em; /* Smaller font size for mobile */
+    }
+    section {
+        padding: 30px 10px; /* Reduce section padding for mobile */
+    }
+    h2 {
+        font-size: 1.6em; /* Adjust h2 font size for mobile */
+    }
+    footer {
+        padding: 15px; /* Adjust footer padding for mobile */
+        font-size: 0.9em; /* Slightly smaller font for mobile */
+    }
+    .cta-button {
+        padding: 8px 15px; /* Adjust button padding for mobile */
+        font-size: 1em; /* Smaller button font size */
+    }
 }
