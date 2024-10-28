@@ -1,35 +1,15 @@
-/* Hero Section Styling with Image */
+/* Hero Section */
 .hero {
-    position: relative;
+    background: linear-gradient(to right, #1a1a1a, #333);
     text-align: center;
-    color: #fff;
     padding: 100px 20px;
-    overflow: hidden;
-}
-
-.hero-overlay {
     position: relative;
-    z-index: 2;
-}
-
-.hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.5;  /* Adjust opacity for blending */
-    z-index: 1;
-    filter: blur(2px); /* Optional blur for abstract effect */
 }
 
 .hero h1 {
     font-size: 2.5em;
     color: #0ff;
     animation: fadeIn 2s;
-    position: relative;
-    z-index: 3;
 }
 
 .cta-button {
@@ -41,7 +21,6 @@
     cursor: pointer;
     font-size: 1.2em;
     transition: transform 0.3s ease;
-    z-index: 3;
 }
 
 .cta-button:hover {
