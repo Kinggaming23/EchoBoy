@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     color: #f0f0f0; /* Light text color for contrast */
-    background-color: black; /* Set background to black */
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
