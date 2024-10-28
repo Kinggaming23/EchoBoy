@@ -47,18 +47,26 @@ nav a:hover {
     font-size: 28px;
     margin-bottom: 10px;
 }
+/* Update border color for gallery images */
+.gallery img {
+    width: 100%;
+    border: 3px solid #ccc; /* Light gray for better contrast */
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+/* Add a border to containers for clear separation */
+.container, header, nav, footer {
+    border: 1px solid #666; /* Lighter gray for visibility on black */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Optional background for readability */
+}
+
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-}
-
-.gallery img {
-    width: 100%;
-    border: 5px solid #ddd;
-    border-radius: 8px;
-    transition: transform 0.3s;
 }
 
 .gallery img:hover {
@@ -71,5 +79,12 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
+}
+.container, header, nav, footer {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+}
+
+.gallery img {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Slightly more pronounced shadow */
 }
 
