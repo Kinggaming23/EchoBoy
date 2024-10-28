@@ -1,17 +1,19 @@
+/* General styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #f0f0f0;
-    overflow-x: hidden;
+    color: #f0f0f0; /* Light text color for contrast */
+    background-color: black; /* Set background to black */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Ensure content appears above the video */
+/* Container styles */
 .container, header, nav, footer {
     position: relative;
     z-index: 1;
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6); /* Optional background to improve text readability */
+    color: #ffffff; /* Ensure text is white */
+    background-color: rgba(0, 0, 0, 0.6); /* Optional: add a slight background to improve readability */
     padding: 10px;
     border-radius: 5px;
 }
@@ -19,7 +21,6 @@ body {
 header {
     text-align: center;
     padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -30,12 +31,12 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #f0f0f0;
+    color: #f0f0f0; /* Light link color */
     font-size: 18px;
 }
 
 nav a:hover {
-    color: #ddd;
+    color: #ddd; /* Slightly lighter on hover */
 }
 
 .container {
@@ -66,9 +67,10 @@ nav a:hover {
     border-color: #aaa;
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); /* Darker footer */
     color: white;
     text-align: center;
     padding: 10px 0;
     width: 100%;
 }
+
