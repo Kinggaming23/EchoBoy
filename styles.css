@@ -1,5 +1,11 @@
+html, body {
+    height: 100%; /* Make sure html and body take the full height */
+}
+
 /* General Styles */
 body {
+    display: flex; /* Use flexbox for the body */
+    flex-direction: column; /* Stack children vertically */
     font-family: Arial, sans-serif;
     color: #eee;
     background-color: #121212;
@@ -161,8 +167,8 @@ button:hover {
 footer {
     margin-top: auto; /* Pushes footer to the bottom */
     padding: 20px; /* Add some padding for space */
-    border-top: 2px solid #777; /* Grey line */
-    background-color: #222; /* Footer background color */
+    background-color: #222; /* Ensure footer has a background */
+    border-top: 1px solid #444; /* Optional: gray line above footer */
 }
 
 /* Music Section */
