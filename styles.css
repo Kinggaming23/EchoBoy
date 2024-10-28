@@ -17,7 +17,9 @@ body {
 .hero h1 {
     font-size: 2.5em;
     color: #0ff;
-    animation: fadeIn 2s;
+    animation: fadeIn 4s;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-image {
@@ -41,6 +43,8 @@ body {
     cursor: pointer;
     font-size: 1.2em;
     transition: transform 0.3s ease;
+    position: relative;
+    z-index: 2;
 }
 
 .cta-button:hover {
